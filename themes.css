@@ -1,0 +1,21 @@
+<style>
+    #ekran-1 {
+        background-color: #EDF1FC;
+    }
+    @media (prefers-color-scheme: light) {
+        #ekran-1 {
+            background-color: #EDF1FC;
+        }
+    }
+    @media (prefers-color-scheme: dark) {
+        #ekran-1 {
+            background-color: #272727;
+        }
+        .lc-text-block {
+            color: #EDF1FC !important;
+        }
+        .lc-footer-columns a {
+            color: inherit;
+        }
+    }
+</style>
